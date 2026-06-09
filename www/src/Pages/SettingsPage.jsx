@@ -259,6 +259,7 @@ const SOCD_MODES = [
 	{ labelKey: 'socd-cleaning-mode-options.last-win', value: 2 },
 	{ labelKey: 'socd-cleaning-mode-options.first-win', value: 3 },
 	{ labelKey: 'socd-cleaning-mode-options.off', value: 4 },
+	{ labelKey: 'socd-cleaning-mode-options.neutral-lr-last-win', value: 5 },
 ];
 
 const PS4_MODES = [
@@ -337,6 +338,7 @@ const HOTKEY_ACTIONS = [
 	{ labelKey: 'hotkey-actions.menu-nav-back', value: 49 },
 	{ labelKey: 'hotkey-actions.menu-nav-toggle', value: 50 },
 	{ labelKey: 'hotkey-actions.focus-mode-toggle', value: 77 },
+	{ labelKey: 'hotkey-actions.socd-neutral-lr-last-win', value: 78 },
 ];
 
 const FORCED_SETUP_MODES = [
