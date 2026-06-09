@@ -572,6 +572,12 @@ void Gamepad::processHotkeyAction(GamepadHotkey action) {
 				reqSave = true;
 			}
 			break;
+		case HOTKEY_SOCD_UD_NEUTRAL_LR_LAST_WIN:
+			if (action != lastAction) {
+				options.socdMode = SOCD_MODE_UD_NEUTRAL_LR_LAST_WIN;
+				reqSave = true;
+			}
+			break;
 		case HOTKEY_REBOOT_DEFAULT:
 			if (action != lastAction) {
 				System::reboot(System::BootMode::DEFAULT);
